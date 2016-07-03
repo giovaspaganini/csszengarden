@@ -10,14 +10,14 @@
 
 /* basic elements */
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic|Open+Sans);
 
 html {
 	margin: 0;
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
+	font: 75% open sans, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
 	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
@@ -29,7 +29,7 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+	font: italic normal 1.4em josefin, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
