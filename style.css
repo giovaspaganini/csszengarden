@@ -130,6 +130,16 @@ header {
 	padding: 10px;
 	text-align: center;
 	}
+.explanation{
+	/*! background: darkseagreen; */
+	/*! color: darkolivegreen; */
+	position: relative;
+	width: 100%;
+	max-width: 1040px;
+	margin: 0 auto 0;
+	padding: 10px;
+	text-align: center;
+}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
