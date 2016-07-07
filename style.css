@@ -131,27 +131,27 @@ header {
 	text-align: center;
 	}
 .explanation{
-	/*! background: darkseagreen; */
+	background: darkseagreen;
 	/*! color: darkolivegreen; */
 	position: relative;
-	width: 100%;
-	max-width: 1040px;
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
 	margin: 0 auto 0;
-	padding: 10px;
+	padding: 50px 100px 50px 100px;
 	text-align: center;
 }
 .participation{
 	/*! background: darkseagreen; */
 	/*! color: darkolivegreen; */
 	position: relative;
-	width: 100%;
-	max-width: 1040px;
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
 	margin: 0 auto 0;
-	padding: 10px;
+	padding: 50px 100px 50px 100px;
 	text-align: center;
 }
 .supporting {	
-	padding-left: 10px; 
+	/*! padding-left: 10px; */ 
 	margin-bottom: 40px;
 	}
 
