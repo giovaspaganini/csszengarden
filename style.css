@@ -150,6 +150,26 @@ header {
 	padding: 50px 100px 50px 100px;
 	text-align: center;
 }
+.benefits{
+	/*! background: darkseagreen; */
+	/*! color: darkolivegreen; */
+	position: relative;
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
+	margin: 0 auto 0;
+	padding: 50px 100px 50px 100px;
+	text-align: center;
+}
+.requirements{
+	/*! background: darkseagreen; */
+	/*! color: darkolivegreen; */
+	position: relative;
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
+	margin: 0 auto 0;
+	padding: 50px 100px 50px 100px;
+	text-align: center;
+}
 .supporting {	
 	/*! padding-left: 10px; */ 
 	margin-bottom: 40px;
