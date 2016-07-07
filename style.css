@@ -74,7 +74,7 @@ abbr {
 .intro { 
 	/*! height: 590px; */
 	width: 100%;
-	background: linear-gradient(to bottom, #ffffff 0%, #edf6ff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, lightgreen 300%);
 	}
 
 header h1 { 
@@ -112,6 +112,8 @@ header {
 	max-width: 1040px;
 	margin: 30px auto 0;
 	padding: 10px;
+	background: transparent;
+	/*! background-size: cover; */
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
