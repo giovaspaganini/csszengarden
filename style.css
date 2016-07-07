@@ -12,6 +12,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic|Open+Sans);
 
+
 html {
 	margin: 0;
 	padding: 0;
@@ -19,12 +20,13 @@ html {
 body { 
 	font: 16px open sans, sans-serif;
 	line-height: 1.25em;
-	color: #555753; 
+	color: #222; 
 	background: #fff url(img/zengarden.jpg) no-repeat fixed;
 	margin: 0; 
 	padding: 0;
 	}
 p { 
+	
 	margin-top: 0; 
 	text-align: center;
 	}
@@ -74,7 +76,7 @@ abbr {
 .intro { 
 	/*! height: 590px; */
 	width: 100%;
-	background: linear-gradient(to bottom, #ffffff 0%, lightgreen 300%);
+	/*! background: linear-gradient(to bottom, #ffffff 0%, lightgreen 300%); */
 	}
 
 header h1 { 
@@ -107,13 +109,14 @@ header {
 }
 
 .summary {
-	position: relative; 
-	width: 100%;
-	max-width: 1040px;
-	margin: 30px auto 0;
-	padding: 10px;
-	background: transparent;
-	/*! background-size: cover; */
+	/*! position: relative; */ 
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
+	margin: 0 auto 0;
+	padding: 50px 100px 50px 100px;
+	background-image: url(img/zengarden.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -121,17 +124,20 @@ header {
 	}
 
 .preamble {
-	/*! background: darkseagreen; */
+	background: #fff;
 	/*! color: darkolivegreen; */
 	position: relative;
-	width: 100%;
-	max-width: 1040px;
+	/*! width: 100%; */
+	/*! max-width: 1040px; */
 	margin: 0 auto 0;
-	padding: 10px;
+	padding: 50px 100px 50px 100px;
 	text-align: center;
+	/*! float: left; */
 	}
 .explanation{
-	background: darkseagreen;
+	background-image: url(img/zengarden2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 	/*! color: darkolivegreen; */
 	position: relative;
 	/*! width: 100%; */
@@ -161,7 +167,7 @@ header {
 	text-align: center;
 }
 .requirements{
-	/*! background: darkseagreen; */
+	background: lightgrey;
 	/*! color: darkolivegreen; */
 	position: relative;
 	/*! width: 100%; */
