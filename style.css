@@ -20,13 +20,13 @@ body {
 	font: 16px open sans, sans-serif;
 	line-height: 1.25em;
 	color: #555753; 
-	background: #fff;
+	background: #fff url(img/zengarden.jpg) no-repeat fixed;
 	margin: 0; 
 	padding: 0;
 	}
 p { 
 	margin-top: 0; 
-	text-align: justify;
+	text-align: center;
 	}
 h1{
 	font-family: 'Josefin Sans', sans-serif;
@@ -140,6 +140,16 @@ header {
 	padding: 10px;
 	text-align: center;
 }
+.participation{
+	/*! background: darkseagreen; */
+	/*! color: darkolivegreen; */
+	position: relative;
+	width: 100%;
+	max-width: 1040px;
+	margin: 0 auto 0;
+	padding: 10px;
+	text-align: center;
+}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
@@ -229,9 +239,3 @@ aside .wrapper {
 	width: 148px; 
 	height: 110px;
 	}
-	
-.participation {
-	background: #ccc;
-	padding-top: 15px;
-	width: 100%;
-}
