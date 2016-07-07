@@ -20,7 +20,7 @@ body {
 	font: 75% open sans, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	background: #fff;
 	margin: 0; 
 	padding: 0;
 	}
@@ -55,7 +55,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+	background: ; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -130,7 +130,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
+	background: transparent; 
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
@@ -173,7 +173,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar li {
 	line-height: 1.3em; 
-	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	background: transparent; 
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
@@ -188,7 +188,7 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+	background: transparent; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
