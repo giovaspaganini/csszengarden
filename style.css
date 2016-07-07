@@ -28,6 +28,11 @@ p {
 	margin-top: 0; 
 	text-align: justify;
 	}
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 91px;
+	font-weight: 300;
+}
 h3 { 
 	font: italic normal 1.4em josefin, sans-serif;
 	letter-spacing: 1px; 
