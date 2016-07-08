@@ -204,7 +204,7 @@ aside, footer, header, nav, section{
 }
 aside .wrapper { 
 	/*! font: 10px verdana, sans-serif; */ 
-	background: darkseagreen;
+	background: seagreen;
 	margin: -5px auto 0;
 	/*! max-width: 1040px; */
 	padding: 50px 100px 50px 100px;
@@ -219,7 +219,7 @@ aside .wrapper ul{
 	list-style: none;
 }
 aside .wrapper ul li{
-	/*! margin-bottom: 12px; */
+	margin-bottom: 12px;
 	/*! float: left; */
 }
 aside .wrapper .design-selection .design-name{
@@ -228,7 +228,19 @@ aside .wrapper .design-selection .design-name{
 aside .wrapper .design-selection{
 	float: left;
 	margin-right: 40px;
-	width: 50%;
+	width: 40%;
+}
+aside .wrapper .zen-resources{
+	margin-top: 40px;
+	/*! float: left; */
+	/*! clear: both; */
+	
+	/*! width: 20%; */
+	/*! margin-right: 20%; */
+}
+aside .wrapper .zen-resources ul li{
+	float: left;
+	margin-right: 10px;
 }
 .sidebar h3.select { 
 	/*! background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; */ 
@@ -258,8 +270,7 @@ aside .wrapper .design-selection{
 
 	/*! text-indent: 100%; */
 	/*! white-space: nowrap; */
-	/*! overflow: hidden; */
-	margin-top: 40px;
+	/*! overflow: hidden; */	
 	}
 
 
@@ -268,12 +279,12 @@ aside .wrapper .design-selection{
 	padding: 0;
 	}
 .sidebar li {
-	/*! line-height: 1.3em; */ 
-	/*! background: transparent; */ 
-	/*! display: block; */ 
+	line-height: 1.3em; 
+	background: transparent; 
+	display: block; 
 	/*! padding-top: 5px; */ 
 	/*! margin-bottom: 5px; */
-	/*! list-style-type: none; */
+	list-style-type: none;
 	}
 .sidebar li a:link {
 	color: #988F5E;
@@ -281,7 +292,15 @@ aside .wrapper .design-selection{
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
-aside .wrapper::after {clear: both;content: " ";display: block;font-size: 0;height: 0;line-height: 0;visibility: hidden;width: 0;}
+aside .wrapper::after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;}
 
 
 .extra1 {
