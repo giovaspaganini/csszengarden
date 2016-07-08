@@ -18,7 +18,7 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 16px open sans, sans-serif;
+	font: 16px 'Open Sans', sans-serif;
 	/*! line-height: 1.25em; */
 	color: #222; 
 	background: #fff url(img/zengarden.jpg) no-repeat fixed;
@@ -42,24 +42,26 @@ h2{
 	font-weight: 100;
 }
 h3 { 
-	font: italic normal 26px josefin, sans-serif;
+	font: italic normal 40px 'Josefin Sans', sans-serif;
 	letter-spacing: 1px; 
 	/*! margin-bottom: 0; */ 
 	/*! color: #7D775C; */
+	/*! font-weight: 400; */
 	}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: lightseagreen;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: darkseagreen;
+
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: mediumaquamarine;
 	}
 abbr {
 	border-bottom: none;
@@ -95,21 +97,16 @@ header h2 {
 	margin: -10px auto 0; 
 	text-align: right;
 
-	width: 100%;
+	width: 50%;
 	/*! max-width: 650px; */
 	}
 header {
-	padding: 20px;
-	/*! height: 87px; */
-	text-align: center;
-	/*! margin: 0 auto; */
-	/*! position: relative; */
-	/*! top: 0; */
-	/*! width: 100%; */
-	background-image: url(img/zengarden4.jpg);
+	padding: 20px;	
+	text-align: center;	
+	background-image: url(img/zengarden5.jpg);
 	background-attachment: fixed;
-	/*! background-size: cover; */
-	/*! color: #fff; */
+	background-size: cover;
+	color: #222;
 }
 
 .summary {
@@ -121,6 +118,7 @@ header {
 	background-image: url(img/zengarden.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	color: #f1f1f1;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -128,7 +126,7 @@ header {
 	}
 
 .preamble {
-	background: #f1f1f1;
+	background: ivory;
 	/*! color: darkolivegreen; */
 	position: relative;
 	/*! width: 100%; */
@@ -142,7 +140,7 @@ header {
 	background-image: url(img/zengarden2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	color: darkslategrey;
+	color: white;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -151,8 +149,8 @@ header {
 	text-align: center;
 }
 .participation{
-	/*! background: darkseagreen; */
-	/*! color: darkolivegreen; */
+	background: ivory;
+	color: #222;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -161,8 +159,8 @@ header {
 	text-align: center;
 }
 .benefits{
-	background: #f1f1f1;
-	color: darkolivegreen;
+	/*! background: #f1f1f1; */
+	color: ivory;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -172,7 +170,7 @@ header {
 }
 .requirements{
 	background-image: url(img/zengarden3.jpg);
-	color: darkslategray;
+	color: ivory;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -191,7 +189,7 @@ footer {
 	background: teal;
 	position: relative;
 	margin: 0 auto 0;
-	padding: 50px 100px 50px 100px;
+	padding: 30px 100px 30px 100px;
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
@@ -218,6 +216,7 @@ aside .wrapper {
 	/*! width: 100%; */
 	/*! z-index: 2; */
 	margin-bottom: -5px;
+	color: ivory;
 	}
 aside .wrapper ul{
 	margin: 0;
@@ -236,6 +235,12 @@ aside .wrapper .design-selection{
 	margin-right: 40px;
 	width: 40%;
 }
+aside .wrapper .design-selection .designer-name {
+	display: block;
+	font-size: 12px;
+	letter-spacing: 1px;
+	  
+}
 aside .wrapper .zen-resources{
 	margin-top: 40px;
 	/*! float: left; */
@@ -245,7 +250,7 @@ aside .wrapper .zen-resources{
 	/*! margin-right: 20%; */
 }
 aside .wrapper .zen-resources ul li{
-	float: left;
+	/*! float: left; */
 	margin-right: 10px;
 }
 .sidebar h3.select { 
@@ -291,9 +296,10 @@ aside .wrapper .zen-resources ul li{
 	/*! padding-top: 5px; */ 
 	/*! margin-bottom: 5px; */
 	list-style-type: none;
+	/*! font-size: 16px; */
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	/*! color: #988F5E; */
 	}
 .sidebar li a:visited {
 	color: #B3AE94;
