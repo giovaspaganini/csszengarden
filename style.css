@@ -178,10 +178,14 @@ header {
 }
 .supporting {	
 	/*! padding-left: 10px; */ 
-	margin-bottom: 40px;
+	/*! margin-bottom: 40px; */
 	}
 
-footer { 
+footer {
+	background: darkseagreen;
+	position: relative;
+	margin: 0 auto 0;
+	padding: 50px 100px 50px 100px;
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
@@ -196,24 +200,24 @@ aside {
 	width: 100%;
 	}
 aside .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: #ccc; 
+	/*! font: 10px verdana, sans-serif; */ 
+	background: darkseagreen;
 	margin: -5px auto 0;
-	max-width: 1040px;
-	padding: 40px 0 30px 0;
+	/*! #max-width: 1040px; */
+	padding: 50px 100px 50px 100px;
 	position: relative;
-	width: 100%;
-	z-index: 2;
+	/*! #width: 100%; */
+	#z-index: 2;
 	}
 .sidebar h3.select { 
-	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
+	/*! background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; */ 
 	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
+	/*! width: 97px; */ 
+	/*! height: 16px; */ 
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+	/*! text-indent: 100%; */
+	/*! white-space: nowrap; */
+	/*! overflow: hidden; */
 	}
 .sidebar h3.archives { 
 	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
