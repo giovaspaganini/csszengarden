@@ -29,6 +29,7 @@ p {
 	
 	margin-top: 0; 
 	text-align: center;
+	font-size: 18px;
 	}
 h1{
 	font-family: 'Josefin Sans', sans-serif;
@@ -41,10 +42,10 @@ h2{
 	font-weight: 100;
 }
 h3 { 
-	font: italic normal 1.4em josefin, sans-serif;
+	font: italic normal 26px josefin, sans-serif;
 	letter-spacing: 1px; 
 	/*! margin-bottom: 0; */ 
-	color: #7D775C;
+	/*! color: #7D775C; */
 	}
 a:link { 
 	font-weight: bold; 
@@ -124,7 +125,7 @@ header {
 	}
 
 .preamble {
-	background: #fff;
+	background: #f1f1f1;
 	/*! color: darkolivegreen; */
 	position: relative;
 	/*! width: 100%; */
@@ -138,7 +139,7 @@ header {
 	background-image: url(img/zengarden2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	/*! color: darkolivegreen; */
+	color: darkslategrey;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -157,8 +158,8 @@ header {
 	text-align: center;
 }
 .benefits{
-	background: darkseagreen;
-	/*! color: darkolivegreen; */
+	background: #f1f1f1;
+	color: darkolivegreen;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
@@ -167,14 +168,16 @@ header {
 	text-align: center;
 }
 .requirements{
-	background: lightgrey;
-	/*! color: darkolivegreen; */
+	background-image: url(img/zengarden3.jpg);
+	color: darkslategray;
 	position: relative;
 	/*! width: 100%; */
 	/*! max-width: 1040px; */
 	margin: 0 auto 0;
 	padding: 50px 100px 50px 100px;
 	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .supporting {	
 	/*! padding-left: 10px; */ 
