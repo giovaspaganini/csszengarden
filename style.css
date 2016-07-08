@@ -185,7 +185,7 @@ header {
 	}
 
 footer {
-	background: darkseagreen;
+	background: teal;
 	position: relative;
 	margin: 0 auto 0;
 	padding: 50px 100px 50px 100px;
@@ -207,7 +207,7 @@ aside, footer, header, nav, section{
 }
 aside .wrapper { 
 	/*! font: 10px verdana, sans-serif; */ 
-	background: seagreen;
+	background: darkslategray;
 	margin: -5px auto 0;
 	/*! max-width: 1040px; */
 	padding: 50px 100px 50px 100px;
